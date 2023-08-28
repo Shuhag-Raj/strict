@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .header_con_main{
+        position: relative;
+    }
+    .menu{
+        display: none; 
+        position: absolute; 
+        display: none;
+        top: 63px;   
+        width: 100%;
+        background: #ffffffc4;    
+    }
+    .menu li{
+        border-bottom: 1px solid #0000006b;
+        width: 95%
+    }
+    .collapse_btn{
+        display: block;   
+    }
+    .hero_con h1{
+        font-size: 70px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    .form_btn{
+        width: 80%;
+    }
+}
